@@ -1,0 +1,44 @@
+[
+    { name: '', img: '', qty: '' },
+    { name: '', img: '', qty: '' },
+    { name: '', img: '', qty: '' }
+]
+
+
+// function del(args){
+//     var x=items.indexOf(args);
+//     items.splice(x,1);
+//     price.splice(x,1);
+//     image.splice(x,1);
+//     console.log(items);
+//     // $('#product').load('index2.html');
+// }
+
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      function del(args){
+        document.getElementById("total").innerHTML=parseInt(document.getElementById("total").value)-parseInt(document.getElementById(args).value);
+        $("div").click(function(){
+          $("."+args).remove();
+        });
+      }
+    </script> -->
+
+Steps: 
+1.create and ink 2 page
+2.get form name form name
+
+
+
+     $("#fieldId").click(function(){
+        $("p").append("<label>Enter Field name :  </label><input type='text'><br><br>");
+    });
+
+        $("#btnGen").click(function(){
+        document.location.href="form.html";
+        var x=document.getElementById("name").value;
+        html_content="<h1>LOL</h1>";
+        html_content+="<h1>"+x+"</h1>"
+        document.getElementById("content").innerHTML=html_content;
+    });

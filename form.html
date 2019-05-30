@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Form</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <style>
+  #draggable { width: 150px; height: 150px; padding: 0.5em; }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#draggable" ).draggable();
+  } );
+  x=window.location.href;
+        x=x.split('?');
+        fname=x[1].split('=');
+        console.log(fname);
+
+            document.write("<div align=\"center\" id=\"draggable\" class=\"ui-widget-content\"><h1 id=\"pid\">"+fname[1]+"</h1></div>")
+  </script>
+</head>
+<body>
+ 
+
+ 
+ 
+</body>
+</html>
+
+
+

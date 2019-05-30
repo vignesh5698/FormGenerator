@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Form Creator</title>
+        <style>
+            button{
+                font-size: 30px;
+                padding: 2%;
+            }
+            #formId{
+                font-size: 30px;
+            }
+            body{
+                align-content: center;
+                
+            }
+            .btn{
+                margin-top: 5px;
+                margin-bottom: 5px;
+            }
+        </style>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script src="MyScript.js"></script>
+
+    </head>
+    <body >
+        <h1 align="center">Form Generator</h1>
+        <!-- <form action='form.html' id="formId"> -->
+            <div>
+            <h4>Form Name :</h4 >
+            <input id="form_name" type="text" class="form-control" placeholder="Enter form name" >
+           <br>
+            <button id="addField" type="button" class="btn btn-success btn-lg "  >Add Field</button>
+            <button id="delField" type="button" class="btn btn-danger btn-lg">Delete Field</button>
+            <button id="Fhide" type="button" class="btn btn-warning btn-lg" >🔃</button>
+            <br>
+            </div>
+            <div id="divId_1">
+                <p id="pId_1"></p>
+            </div>
+            <div>
+                <button id="addTable" type="button" class="btn btn-success btn-lg">Add Table</button>
+                <button id="delTable" type="button" class="btn btn-danger btn-lg">Delete Table</button>
+                <button id="Thide" type="button" class="btn btn-warning btn-lg" >🔃</button>
+            </div>
+            <div id="divId_2">
+                <p id="pId_2"></p>
+            </div>
+            <div id="divId_3">
+                    <p id="pId_3"></p>
+                </div>
+            <div>
+                <button id="addButton" type="button" class="btn btn-success btn-lg">Add Button</button>
+                <button id="delButton" type="button" class="btn btn-danger btn-lg">Delete Button</button>
+                <button id="Bhide" type="button" class="btn btn-warning btn-lg" >🔃</button>
+            </div>
+            <div id="divId_4">
+                <p id="pId_4"></p>
+            </div>
+        <div>
+                <button id ="btnGen" type="submit" class="btn btn-dark btn-lg">Generate</button>
+
+        <!-- </form> -->
+        
+    </body>
+</html>
